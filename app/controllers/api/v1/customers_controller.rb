@@ -4,7 +4,7 @@ class Api::V1::CustomersController < ApplicationController
     if new_user.save
       render status: 201
     else
-      render json: { error: 'Duplicate Customer Email' }, status: 401
+      render json: { error: 'Duplicate Customer Email' }, status: 400
     end
   end
 
