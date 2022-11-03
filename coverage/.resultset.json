@@ -195,7 +195,7 @@
           null,
           null,
           1,
-          1,
+          2,
           null,
           null,
           null,
@@ -208,66 +208,39 @@
         "lines": [
           1,
           null,
-          null
-        ]
-      },
-      "/Users/maryturpin/turing/4Module/projects/tea_api/app/models/customer.rb": {
-        "lines": [
           1,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/maryturpin/turing/4Module/projects/tea_api/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/maryturpin/turing/4Module/projects/tea_api/spec/models/customer_subscription_spec.rb": {
-        "lines": [
           1,
           null,
           1,
-          1,
-          2,
-          2,
+          null,
+          null,
           null,
           null
         ]
       },
-      "/Users/maryturpin/turing/4Module/projects/tea_api/app/models/customer_subscription.rb": {
+      "/Users/maryturpin/turing/4Module/projects/tea_api/app/controllers/api/v1/subscriptions_controller.rb": {
         "lines": [
           1,
           1,
+          3,
+          3,
+          2,
+          null,
           1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          3,
+          null,
           null
         ]
       },
-      "/Users/maryturpin/turing/4Module/projects/tea_api/spec/models/subscription_spec.rb": {
+      "/Users/maryturpin/turing/4Module/projects/tea_api/app/controllers/application_controller.rb": {
         "lines": [
           1,
-          null,
-          1,
-          1,
-          2,
-          2,
-          2,
-          2,
-          null,
-          null,
-          1,
-          2,
-          2,
-          2,
-          2,
-          null,
           null
         ]
       },
@@ -285,58 +258,14 @@
           null
         ]
       },
-      "/Users/maryturpin/turing/4Module/projects/tea_api/spec/models/tea_spec.rb": {
+      "/Users/maryturpin/turing/4Module/projects/tea_api/app/models/application_record.rb": {
         "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          2,
-          null,
-          null,
-          1,
-          2,
-          2,
-          2,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/maryturpin/turing/4Module/projects/tea_api/app/models/tea.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/maryturpin/turing/4Module/projects/tea_api/spec/models/tea_subscription_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/maryturpin/turing/4Module/projects/tea_api/app/models/tea_subscription.rb": {
-        "lines": [
-          1,
           1,
           1,
           null
         ]
       }
     },
-    "timestamp": 1667361455
+    "timestamp": 1667447335
   }
 }
