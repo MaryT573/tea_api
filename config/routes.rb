@@ -6,6 +6,8 @@ Rails.application.routes.draw do
       end
       resources :subscriptions do
       end
+      resources :customer_subscriptions do
+      end
     end
   end
 end
