@@ -4,8 +4,10 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :customers do
       end
+      
       resources :subscriptions do
       end
+
       resources :customer_subscriptions do
       end
     end

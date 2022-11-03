@@ -4,7 +4,7 @@ class Api::V1::SubscriptionsController < ApplicationController
         if new_sub.save
           render status: 201
         else
-          render json: { error: 'Duplicate Title' }, status: 401
+          render json: { error: 'Duplicate Title' }, status: 400
         end
       end
     
