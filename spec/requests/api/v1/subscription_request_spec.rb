@@ -33,7 +33,7 @@ RSpec.describe 'Customer' do
         post '/api/v1/subscriptions', params: sub_params
 
         expect(response).to_not be_successful
-        expect(response.status).to eq(401)
+        expect(response.status).to eq(400)
         expect(response.body).to eq("{\"error\":\"Duplicate Title\"}")
     end
   end
