@@ -29,4 +29,17 @@ class Api::V1::CustomerSubscriptionsController < ApplicationController
         end
     end
 
+    def index
+        if Customer.find_by(email: params[:email])
+            user = Customer.find_by(email: params[:email])
+            subs = CustomerSubscription.customer_search(user.id)
+            active = subs.where(active: true)
+            cancelled = subs.where(active: false)
+            data = {active: active, cancelled: cancelled}
+            render json: SubscriptionSerializer.all_subscriptions(data), status: 201 
+        else
+            render json: { error: 'Invalid Customer' }, status: 400
+        end
+    end
+
 end
